@@ -3,7 +3,6 @@ const data = require("../config/userInfo");
 
 module.exports = (req, res) => {
   //Create users in bulk
-  console.log("dataa------------------>",data);
   
   data.map((userInfo, idx) => {
     if (userInfo) {
